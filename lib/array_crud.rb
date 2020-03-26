@@ -21,11 +21,11 @@ end
 def remove_element_from_end_of_array(array)
   array = ["Peety", "Ronnie", "Reggie", "Pepper"]
   array.pop
-  dogs
+  array
 end
 
 def remove_element_from_start_of_array(array)
-  dogs = ["Peety", "Ronnie", "Reggie", "Pepper"]
+  array = ["Peety", "Ronnie", "Reggie", "Pepper"]
   dogs.shift
   dogs
 end
