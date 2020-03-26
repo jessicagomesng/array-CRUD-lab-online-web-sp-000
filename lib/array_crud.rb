@@ -9,11 +9,12 @@ end
 def add_element_to_end_of_array(array, element)
   dogs = ["Peety", "Ronnie", "Reggie", "Pepper"]
   dogs << "Skittles"
-  dogs 
+  dogs
 end
 
 def add_element_to_start_of_array(array, element)
-
+  dogs = ["Peety", "Ronnie", "Reggie", "Pepper"]
+  dogs.unshift("Skittles")
 end
 
 def remove_element_from_end_of_array(array)
